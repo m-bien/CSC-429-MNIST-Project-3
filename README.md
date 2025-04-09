@@ -81,7 +81,7 @@ These hyperparameters are used to optimize the models.
 ### SGD vs Momentum 
 
 - **SGD (lr = 0.1)**: Sharp initial convergence, sharp flucuations.
-- **GD (lr = 0.01)**: Smooth convergence, stable flucuations.
+- **SGD (lr = 0.01)**: Smooth convergence, stable flucuations.
 - **SGD (lr = 0.001)**: Very slow convergence, stable flucuations.
 - **SGD (lr = decreasing)**: Stablized over time, best overall behavior.
 - **Momentum**: Sharp and fast.
