@@ -64,6 +64,16 @@ $$
 Adam combines learning rates and momentum to test if bias correction affects convergence. Bias correction ensures that momentum is unbiased. Final loss is also compared.
 
 
+## Hyperparameter Tuning Discussion
+Hyperparameter tuning means adjusting the settings on a model to see which one gets the best results. For example:
+
+- **Task 1 (SGD)**: Three learning rates were tested (`0.1`, `0.01`, `0.001`)
+- **Task 2 (Momentum)**: `β = 0.9`, a standard value used to test momentum (convergence)
+- **Task 3: (Adam)**: `β₁=0.9` and `β₂=0.99`, common values used to estimate Adam
+
+These hyperparameters are used to optimize the models.
+
+
 ## Results
 
 ![Results Plot](plots/results.png)
